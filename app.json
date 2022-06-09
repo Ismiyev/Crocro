@@ -1,25 +1,48 @@
 {
-  {
 
-    "name": "karabakh croco Bot",
+  " name " : " Timsah Oyunu " ,
 
-    "description": "pytgcalls ve pyrogram tarafından desteklenen Telegram Grup Görüntülü Sohbet aracılığıyla Video ve Müzik Akışı için Telegram botu",
+  " description " : " Telegram kelime tabanlı bir oyun botu. " ,
 
-    "logo": "https://telegra.ph/file/3837f56009786446c7ac7.jpg",
+  " anahtar kelimeler " : [ " telgraf " , " piton " ],
 
-    "keywords": [
+  " depo " : " https://github.com/tagiyevv001/crocro " ,
 
-        "pytgcalls",
+  " env " : {
 
-        "telegram bot",
+    " BOT_TOKEN " : {
 
-        "video stream",
+      " description " : " @BotFather'dan bir bot jetonu. " ,
 
-        "pyrogram"
+      " gerekli " : doğru
 
-    ],
+    },
 
-    "website": "https://t.me/riyadcrobot",
+    " MONGO_URI " : {
+
+      " description " : " Bir MongoDB URI'si. " ,
+
+      " gerekli " : doğru
+
+    }
+
+  },
+
+  " yapı paketleri " : [
+
+    {
+
+      " url " : " heroku/python "
+
+    }
+
+  ]
+
+}
+
+
+
+"website": "https://t.me/riyadcrobot",
 
     "repository": "https://github.com/thagiyevv001/crocro",
 
