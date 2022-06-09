@@ -1,21 +1,89 @@
 {
-  " name " : " Timsah Oyunu " ,
-  " description " : " Telegram kelime tabanlı bir oyun botu. " ,
-  " anahtar kelimeler " : [ " telgraf " , " piton " ],
-  " depo " : " https://github.com/EkimozSupport/kelme " ,
-  " env " : {
-    " BOT_TOKEN " : {
-      " description " : " @BotFather'dan bir bot jetonu. " ,
-      " gerekli " : doğru
+  {
+
+    "name": "karabakh croco Bot",
+
+    "description": "pytgcalls ve pyrogram tarafından desteklenen Telegram Grup Görüntülü Sohbet aracılığıyla Video ve Müzik Akışı için Telegram botu",
+
+    "logo": "https://telegra.ph/file/3837f56009786446c7ac7.jpg",
+
+    "keywords": [
+
+        "pytgcalls",
+
+        "telegram bot",
+
+        "video stream",
+
+        "pyrogram"
+
+    ],
+
+    "website": "https://t.me/Nexus_Bots",
+
+    "repository": "https://github.com/thagiyevv001/crocro",
+
+    "success_url": "https://t.me/dA_l_i_y_e_v_d_i",
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "API_ID'niz my.telegram.org",
+
+            "required": true
+
+        },
+
+        "API_HASH": {
+
+            "description": "API_HASH'iniz içinm my.telegram.org",
+
+            "required": true
+
+        }
+
     },
-    " MONGO_URI " : {
-      " description " : " Bir MongoDB URI'si. " ,
-      " gerekli " : doğru
-    }
-  },
-  " yapı paketleri " : [
-    {
-      " url " : " heroku/python "
+
+    "addons": [],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+
+        {
+
+            "url": "heroku/nodejs"
+
+        },
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
+        }
+
+    ],
+
+    "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    },
+
+    "stack": "container"
+
+}
     }
   ]
 }
