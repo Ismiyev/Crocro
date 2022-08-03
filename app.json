@@ -14,7 +14,7 @@
 
       " description " : " @BotFather'dan bir bot jetonu. " ,
 
-      " gerekli " : doğru
+      " gerekli " : 5509121112:AAHORNNqwXGUBbDuECbHA_tCiOJskhdzkmg
 
     },
 
@@ -22,7 +22,7 @@
 
       " description " : " Bir MongoDB URI'si. " ,
 
-      " gerekli " : doğru
+      " gerekli " : mongodb+srv://aylak:aylak@cluster0.cd5my.mongodb.net/Cluster0?retryWrites=true&w=majority
 
     }
 
