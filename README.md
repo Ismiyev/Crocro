@@ -48,4 +48,4 @@ docker-compose up -d --build
 - Telegram: https://t.me/foxgowner
 - Mail: soc4up@gmail.com
 
-- Project link: https://github.com/play2pay/croco-az
+- Project link: https://github.com/play2pay/croco-az 
